@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>High School</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #FFD4F1;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav a, .dropdown {
+        color: #8b3a62;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+
+    .nav a:hover, .dropdown:hover .dropbtn {
+        background-color: #b38f95;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9b6e2;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 5px;
+        top: 100%; 
+        left: 0;   
+    }
+
+    .dropdown-content a {
+        color: #8b3a62;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #FDADE3;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .text-section {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .text-section h2 {
+        font-size: 100%;
+        font-family: "helvetica", cursive;
+    }
+
+    img {
+        width: 450px;
+        height: 300px;
+    }
+</style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="file:///C:/Users/pc/Desktop/SEM%204/IML254/Assignment%201/index.html">HOME</a>
+        <div class="dropdown">
+            <a href="#">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="introduction.html">INTRODUCTION</a>
+                <a href="myambition.html">MY AMBITION</a>
+                <a href="myschedule.html">MY CLASS SCHEDULE</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">EDUCATION</a>
+            <div class="dropdown-content">
+                <a href="primaryschool.html">PRIMARY SCHOOL</a>
+                <a href="highschool.html">HIGH SCHOOL</a>
+                <a href="university.html">UNIVERSITY</a>
+            </div>
+        </div>
+        <a href="family.html">MY FAMILY</a>
+        <a href="hsfriends.html">HIGH SCHOOL FRIENDS</a>
+        <a href="unifriends.html">UNIVERSITY FRIENDS</a>
+        <a href="mygallery.html">MY GALLERY</a>
+    </nav>
+    <div class="content">
+    </div>
+    <marquee>
+    </marquee>
+    <h1 style="color:pink;">SEKOLAH MENENGAH KEBANGSAAN SERI BENTONG</h1>
+    <div class="container">
+        <div class="images">
+            <img src="images/sisp.jpg" alt="SISP Photo">
+	    <p>
+            <img src="images/hs photo.jpg" alt="High School Photo">
+        </div>
+        <div class="text-section">
+            <h2>This is my primary and high school, which is SMK Seri Bentong. An interesting fact about my school is that it implements a combination of primary and high schools. For your information, my school is a school that has a dormitory, and students in the school must live in the dormitory. </h2>
+            <p>
+            <h2>I feel very proud because I was able to enter this school. The selection of students at this school is limited. For your information, I entered this school from the age of 10 to 17. Entry for primary school students in this school is known as Sekolah Indera Shahbandar Pahang (SISP). In Pahang, there are four schools that have SISP students. </h2>
+            <p>
+            <h2>While I was at this school, I gained a lot of new knowledge about life and studies. This school has also educated me as an independent and responsible person. There are many experiences that I cannot forget about this school. In my opinion, this school should be established more because it can build students into more disciplined people. </h2>
+	    <p>
+	    <h1 style="color:pink;"> My high school is located at:</h1>
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5979709996336!2d102.07167837403398!3d3.4475112512480752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cea761a992ecb7%3A0x4e96c3bd1133aa31!2sSekolah%20Menengah%20Kebangsaan%20Seri%20Bentong!5e0!3m2!1sen!2smy!4v1718706311488!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+   
+</body>
+</html>
+
+

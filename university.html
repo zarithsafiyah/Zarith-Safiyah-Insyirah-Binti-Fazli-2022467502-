@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #FFD4F1;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav a, .dropdown {
+        color: #8b3a62;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+
+    .nav a:hover, .dropdown:hover .dropbtn {
+        background-color: #b38f95;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9b6e2;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 5px;
+        top: 100%; 
+        left: 0;   
+    }
+
+    .dropdown-content a {
+        color: #8b3a62;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #FDADE3;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .text-section {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .text-section h2 {
+        font-size: 100%;
+        font-family: "helvetica", cursive;
+    }
+
+    img {
+        width: 450px;
+        height: 300px;
+    }
+</style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="file:///C:/Users/pc/Desktop/SEM%204/IML254/Assignment%201/index.html">HOME</a>
+        <div class="dropdown">
+            <a href="#">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="introduction.html">INTRODUCTION</a>
+                <a href="myambition.html">MY AMBITION</a>
+                <a href="myschedule.html">MY CLASS SCHEDULE</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">EDUCATION</a>
+            <div class="dropdown-content">
+                <a href="primaryschool.html">PRIMARY SCHOOL</a>
+                <a href="highschool.html">HIGH SCHOOL</a>
+                <a href="university.html">UNIVERSITY</a>
+            </div>
+        </div>
+        <a href="family.html">MY FAMILY</a>
+        <a href="hsfriends.html">HIGH SCHOOL FRIENDS</a>
+        <a href="unifriends.html">UNIVERSITY FRIENDS</a>
+        <a href="mygallery.html">MY GALLERY</a>
+    </nav>
+    <div class="content">
+    </div>
+    <marquee>
+    </marquee>
+    <h1 style="color:pink;">UNIVERSITI TEKNOLOGI MARA (UiTM) 
+    <p> MERBOK,KEDAH</h1>
+    <div class="container">
+        <img src="images/uni photo.jpg" alt="University Photo">
+        <img src="images/un photo.jpg" alt="University Photo 2">
+        <div class="text-section">
+            <h2>I've already been accepted as a student at UiTM Kedah to pursue my education as a diploma student. As you may know, I majored in library informatics at the university. I'm a diploma student in my fourth semester right now. Nevertheless, I'm honoured to have been accepted into this university as a selected student.</h2>
+            <p>
+            <h2>This university enjoys widespread recognition in Malaysia. In addition, the public has praised this university greatly for its ability to generate successful graduates.</h2>
+            <p>
+            <h2>You can click this link to learn more about this university if you're interested.<a href="https://kedah.uitm.edu.my/">https://kedah.uitm.edu.my/</a></p></h2>
+            <p>
+            <h1 style="color:pink;"> My university is located at:</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9950146472147!2d100.44790707404125!3d5.713853332044119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b28adfa3c0e53%3A0xe310799cc09dac88!2sUiTM%20Kedah!5e0!3m2!1sen!2smy!4v1718706023341!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Primary School</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #FFD4F1;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav a, .dropdown {
+        color: #8b3a62;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+
+    .nav a:hover, .dropdown:hover .dropbtn {
+        background-color: #b38f95;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9b6e2;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 5px;
+        top: 100%; 
+        left: 0;   
+    }
+
+    .dropdown-content a {
+        color: #8b3a62;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #FFD4F1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #FDADE3;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        font-family: helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .text-section {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .text-section h2 {
+        font-size: 100%;
+        font-family: "helvetica", cursive;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+</style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="file:///C:/Users/pc/Desktop/SEM%204/IML254/Assignment%201/index.html">HOME</a>
+        <div class="dropdown">
+            <a href="#">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="introduction.html">INTRODUCTION</a>
+                <a href="myambition.html">MY AMBITION</a>
+                <a href="myschedule.html">MY CLASS SCHEDULE</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">EDUCATION</a>
+            <div class="dropdown-content">
+                <a href="primaryschool.html">PRIMARY SCHOOL</a>
+                <a href="highschool.html">HIGH SCHOOL</a>
+                <a href="university.html">UNIVERSITY</a>
+            </div>
+        </div>
+        <a href="family.html">MY FAMILY</a>
+        <a href="hsfriends.html">HIGH SCHOOL FRIENDS</a>
+        <a href="unifriends.html">UNIVERSITY FRIENDS</a>
+        <a href="mygallery.html">MY GALLERY</a>
+    </nav>
+    <div class="content">
+    </div>
+    <marquee>
+    </marquee>
+    <h1 style="color:pink;">SEKOLAH KEBANGSAAN KARAK</h1>
+    <div class="container">
+        <img src="images/logo sk.karak.jpg" alt="MyPhoto">
+        <div class="text-section">
+            <h2>When I was 7 years old to 9 years old I went to school at Karak National School. Although I only attended this school for 3 years, I have many wonderful memories with my friends.</h2>
+            <p>
+            <h1 style="color:pink;"> My primary school is located at:</h1>
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7454513385774!2d102.03220787403401!3d3.412110251481866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc1e651e0b9c17%3A0xa722387c96bea8d0!2sSK%20Karak!5e0!3m2!1sen!2smy!4v1718706220770!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <h2>You must be wondering why I attended this school for only three years. I will explain this matter on the page <a href="highschool.html">Sekolah Menengah Kebangsaan Seri Bentong</a></p></h2>
+        </div>
+    </div>
+</body>
+</html>
